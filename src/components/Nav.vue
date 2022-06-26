@@ -17,16 +17,10 @@ export default {
           >Home</router-link
         >
         <router-link
-          :class="{ active: $route.name === 'read' }"
+          :class="{ active: $route.name === 'donate' }"
           class="y nav-link"
-          :to="{ name: 'read', params: { id: 1 } }"
-          >Read</router-link
-        >
-        <router-link
-          :class="{ active: $route.name === 'about' }"
-          class="y nav-link"
-          to="/about"
-          >About Us</router-link
+          to="/"
+          >Donate</router-link
         >
       </nav>
     </div>
